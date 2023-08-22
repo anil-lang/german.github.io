@@ -1,0 +1,120 @@
+.navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+    font-weight: 700;
+}
+.navbar-nav .nav-item .nav-link:hover{
+   color:rgb(161, 159, 255) ;
+}
+
+#banner-text h1 {
+    text-transform: capitalize;
+    font-weight: 800;
+    margin-top: 93px;
+    font-size: 41px;
+}
+
+#banner-text h1 span{
+    color:rgb(161, 159, 255);
+}
+
+#banner-text a {
+    display: block;
+    text-align: center;
+    width: 145px;
+    padding: 10px;
+    color: black;
+    background:rgb(161, 159, 255);
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#banner-text a:hover{
+  background-color: black;
+  color: aqua;
+}
+
+.fa-brands {
+    font-size: 22px;
+    margin-left: 9px;
+    transition: 0.5s;
+}
+
+.fa-brands:hover {
+    transform: scale(1.8);
+}
+
+#banner-img {
+    display: flex;
+    justify-content: end;
+    background:url('../img/oval.png')no-repeat;
+    background-size: cover;
+}
+
+#banner-img .girls {
+    filter: drop-shadow(20px 20px 20px black);
+    width: 300px;
+    z-index: 1;
+}
+/* header-end================================================================ */
+#our-services h4{
+    text-transform: capitalize;
+}
+#our-services a{
+    font-weight: 800;
+    text-decoration: none;
+    color: rgb(112, 124, 255)
+}
+#our-services a:hover{
+    color: black;
+}
+#our-services a:after{
+    content: "\f061";
+    font-family: fontAwesome;
+    color: black;
+}
+
+/* our-services-end=============================================== */
+.item{
+    /* background: cyan;
+    height: 350px;
+    padding: 10px; */
+}
+
+#news span:before{
+    content: "\f073";
+    font-family: fontAwesome;
+    margin-right: 5px;
+    color: black;
+}
+
+#join-now a{
+    background:rgb(112, 124, 255);
+    color:#fff;
+  font-size: 25px;
+    text-transform: capitalize;
+    display: block;
+}
+#join-now a:hover{
+    background: black;
+}
+/* news-end================================================ */
+ 
+.owl-carousel h4{
+    text-transform: capitalize;
+    color: rgb(112, 124, 255)
+}
+.owl-carousel a{
+    /* background:rgb(62, 75, 214) */
+}
+.owl-carousel a:after{
+    content: "\f061";
+    font-family: fontAwesome;
+    color:black;
+    margin-left:10px;
+}
+/* we-covered-end================================================ */
+#footer{
+    background:url('../img/study-abroad-landing-page-atiqur-rahaman-sketch.png') no-repeat;
+    background-size: cover;
+}
